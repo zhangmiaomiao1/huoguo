@@ -1,0 +1,64 @@
+/*列表*/
+.list{
+    width: 10.8rem;
+    height:2.8rem;
+}
+.xian{
+    width: 10.8rem;
+    height: 0.02rem;
+    background:#e3e3e3;
+}
+.list-l{
+    width:3.74rem;
+    float: left;
+}
+.list-l img{
+    width:3.73rem;
+    height:2.19rem;
+    margin-left: 0.3rem;
+    margin-top: 0.3rem;
+}
+.list-r{
+    width:6.55rem;
+    float: left;
+    padding-left: 0.2rem;
+    padding-right: 0.3rem;
+}
+.list-r p:nth-of-type(1){
+    font-size: 0.36rem;
+    color: #676767;
+    padding-top:0.38rem ;
+
+}
+.list-r p:nth-of-type(2){
+    font-size: 0.38rem;
+    color: #343434;
+    letter-spacing:1px;
+    font-weight: bold;
+    margin-top: 0.25rem;
+}
+.list-r p:nth-of-type(3){
+    font-size:0.5rem;
+    /*color: #343434;*/
+    letter-spacing:1px;
+    color: #ff6600;
+    font-weight: bold;
+    float: left;
+    margin-top: 0.25rem;
+}
+.list-r p:nth-of-type(4){
+    float: right;
+    font-size: 0.36rem;
+    letter-spacing:2px;
+    margin-top: 0.3rem;
+}
+.list-r p:nth-of-type(4) span{
+    color: #ff2a07;
+}
+.list-r p:nth-of-type(3) span{
+    font-size: 0.3rem;
+    color: #a1a1a1;
+    text-decoration:line-through;
+    font-weight: normal;
+}
+
